@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Maths Micro Project</title>
+</head>
+<body>
+    <h1>Complex Number Calculator | Micro Project</h1>
+    <main>
+        <div class="box" id="calculator">
+            <p>What You Want To Do?</p>
+            <select name="operation" id="operation">
+                <option value="add">Addition</option>
+                <option value="sub">Subtraction</option>
+                <option value="mul">Multiplication</option>
+                <option value="div">Division</option>
+                <option value="con">Conjagute</option>
+                <option value="sqrt">Square Root</option>
+                <option value="inv">Inverse</option>
+            </select>
+    
+            <div class="complexNumber">
+                <p>1<sup>st</sup> Complex Number</p>
+                <input type="number" name="" id="x1" placeholder="X">
+                <select name="complex1" id="complex1opt">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                </select>
+                <input type="number" name="" id="y1" placeholder="Y">
+                <label>i</label>    
+            </div>
+            <div class="complexNumber">
+                <p>2<sup>nd</sup> Complex Number</p>
+                <input type="number" name="" id="x2" placeholder="X">
+                <select name="complex2" id="complex2opt">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                </select>
+                <input type="number" name="" id="y2" placeholder="Y">
+                <label>i</label>
+            </div>
+            <button id="getAns">Get Answer</button>
+            <p>The answer is </p> <input name="" value="0" id="ans" readonly>
+        </div>
+        <div class="box" id="aboutme">
+            <p class="head">Made By</p>
+            <img src="myImg.jpg" alt="Satyajit">
+            <p>Satyajit Chaudhary</p>
+            <div>
+                <p>Enrollement Id: 216400307267</p>
+                <p>Department: Computer</p>
+                <p>Class: CO24</p>
+                <p>Batch: CO24-2</p>
+                <p>Subject: Mathamatics</p>
+                <p>Subject Code: 4320002</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
